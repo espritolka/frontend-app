@@ -1,0 +1,25 @@
+.button {
+    border: 1px solid #CFCFCF;
+    border-radius: 35px;
+    height: 42px;
+    width: 42px;
+    padding: 9px;
+    display: flex;
+    align-items: center;
+    path {
+        fill: #CFCFCF;
+    }
+}
+
+.active {
+    border-color: var(--gradient-color-first);
+    path {
+        fill: var(--gradient-color-first);
+    }
+    &:hover {
+        background-color: var(--gradient-color-first);
+        path {
+            fill: white;
+        }
+    }
+}

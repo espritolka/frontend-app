@@ -1,0 +1,36 @@
+.sunMenu {
+    min-width: 258px;
+    width: 258px;
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 28px 0 0 0;
+    border-radius: 31px 0px 0px 0px
+}
+
+.content {
+    max-height: 100%;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    /* width */
+    &::-webkit-scrollbar {
+        width: 3px;
+    }
+
+    /* Handle */
+    &::-webkit-scrollbar-thumb {
+        background: var(--main-color);
+        border-radius: 15px;
+    }
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 28px;
+}

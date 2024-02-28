@@ -1,0 +1,24 @@
+.button {
+    height: 296px;
+    width: 493px;
+    border: 2px solid white;
+    border-radius: 15px;
+    margin: 20px;
+    color: var(--main-text-color);
+    background-color: white;
+
+    &:hover {
+        border: 9px solid var(--main-color);
+    }
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    > img {
+        height: 35px;
+        width: 35px;
+    }
+}

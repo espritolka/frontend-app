@@ -1,0 +1,68 @@
+.start-input, .start-input-text {
+    /*height: 70px;*/
+    /*border: none;*/
+    /*font-size: 50px;*/
+    /*caret-color: brown;*/
+    position: fixed;
+    top: 50%;
+    left: 0;
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    margin-top: -40px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.start-input {
+    color: transparent;
+    background-color: transparent;
+    border: 0;
+    outline: none;
+    &:focus {
+        border: none;
+        outline:none;
+    }
+}
+
+/*.start-input-text {*/
+/*    overflow: hidden;*/
+/*    text-overflow: ellipsis;*/
+/*}*/
+
+.start-input-text:after, .start-input-text:before {
+    content: '';
+    display: inline-block;
+    width: 8px;
+    height: 60px;
+    vertical-align: middle;
+}
+
+.start-input-text:after {
+    position: relative;
+    bottom: 8px;
+    left: 8px;
+    background: #000;
+    animation: blinky 1s linear infinite alternate;
+    -webkit-animation: blinky 1s linear infinite alternate;
+}
+
+@keyframes blinky {
+    0% {
+        background: transparent
+    }
+    100 % {
+        background: black
+    }
+}
+
+@-webkit-keyframes blinky {
+    0% {
+        background: transparent
+    }
+    100 % {
+        background: black
+    }
+}

@@ -1,0 +1,16 @@
+.wrapper {
+    position: absolute;
+    bottom: 100px;
+    display: flex;
+    width: calc(100% - 50px);
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    flex-direction: column;
+    right: 100px;
+    font-size: 36px;
+
+    & > span {
+        font-size: 24px;
+    }
+}

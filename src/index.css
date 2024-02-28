@@ -1,8 +1,6 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: "Inter", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +8,22 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+:root {
+  --main-color: #1f2545 ;
+  --secondary-color: #C4F1F9;
+  /*--gradient-color-first: #4DA993;*/
+  /*--gradient-color-second: #206756;*/
+  /*--gradient-color-first: #8d76bd;*/
+  /*--gradient-color-second: #472067;*/
+  --gradient-color-first: #7078af;
+  --gradient-color-second: #040a23;
+  --main-text-color: #2D3E41;
+  --chakra-fonts-heading: "Inter", sans-serif !important;
+  --chakra-fonts-body: "Inter", sans-serif !important;
+}
+
+span {
+  cursor: default;
 }

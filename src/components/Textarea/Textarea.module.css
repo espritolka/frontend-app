@@ -1,0 +1,31 @@
+.wrapper {
+    border: 1px solid #CFCFCF;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    padding-right: 16px;
+    &:focus,
+    &:hover {
+        border-color: var(--gradient-color-first);
+        /*background-color: #fafcfe;*/
+    }
+}
+
+.textarea {
+    padding:11px;
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 0;
+    resize: none;
+}
+
+.btn {
+    /*margin-bottom: 13px;*/
+    /*right: 13px;*/
+    /*position: absolute;*/
+}

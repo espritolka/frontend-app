@@ -1,0 +1,27 @@
+.menuItem {
+    color: white;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    padding: 8px;
+    margin: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    &:first-child {
+      margin-top: 0;
+    }
+
+    &:hover:not(.activeMenuItem) {
+        /*border: 1px solid white;*/
+        border-radius: 6px;
+        /*opacity: 0.3;*/
+        background-color: rgba(152, 128, 255, 0.2);
+    }
+}
+.activeMenuItem {
+    background-color: var(--main-color);
+    border-radius: 6px;
+    border: 1px solid var(--main-color);
+}

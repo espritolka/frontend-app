@@ -1,0 +1,32 @@
+.avatar {
+  border: 1px solid rgb(255, 255, 255, 0);
+  background-color: rgb(255, 255, 255, 0.5);
+  padding: 5px;
+  border-radius: 25px;
+  margin-right: 10px;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--main-text-color);
+  width: 32px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logOut {
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+.logIn {
+  cursor: pointer;
+}
+
+.avatarPic {
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgb(255, 255, 255, 0);
+  border-radius: 25px;
+  margin-right: 10px;
+}
